@@ -14,5 +14,6 @@
 #import <PinterestSDK/PDKImageInfo.h>
 #import <PinterestSDK/PDKInterest.h>
 #import <PinterestSDK/PDKModelObject.h>
+#import <PinterestSDK/PDKPin.h>
 #import <PinterestSDK/PDKResponseObject.h>
 #import <PinterestSDK/PDKUser.h>

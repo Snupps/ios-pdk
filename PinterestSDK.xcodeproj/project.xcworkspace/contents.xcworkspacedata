@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PInterestSDK.xcodeproj">
+      location = "self:/Users/peyman/Projects/fork/ios-pdk/PinterestSDK.xcodeproj">
    </FileRef>
 </Workspace>

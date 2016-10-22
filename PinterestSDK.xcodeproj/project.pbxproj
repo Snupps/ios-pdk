@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3ECE1061DBBDAB3002F7748 /* PInterestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PInterestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3ECE1061DBBDAB3002F7748 /* PinterestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinterestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3ECE1091DBBDAB3002F7748 /* PInterestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PInterestSDK.h; sourceTree = "<group>"; };
 		F3ECE10A1DBBDAB3002F7748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3ECE1121DBBDB23002F7748 /* PDKBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKBoard.h; path = Pod/Classes/PDKBoard.h; sourceTree = SOURCE_ROOT; };
@@ -81,7 +81,7 @@
 		F3ECE0FC1DBBDAB3002F7748 = {
 			isa = PBXGroup;
 			children = (
-				F3ECE1081DBBDAB3002F7748 /* PInterestSDK */,
+				F3ECE1081DBBDAB3002F7748 /* PinterestSDK */,
 				F3ECE1071DBBDAB3002F7748 /* Products */,
 				F3ECE1361DBBDC62002F7748 /* Frameworks */,
 			);
@@ -90,18 +90,19 @@
 		F3ECE1071DBBDAB3002F7748 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3ECE1061DBBDAB3002F7748 /* PInterestSDK.framework */,
+				F3ECE1061DBBDAB3002F7748 /* PinterestSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3ECE1081DBBDAB3002F7748 /* PInterestSDK */ = {
+		F3ECE1081DBBDAB3002F7748 /* PinterestSDK */ = {
 			isa = PBXGroup;
 			children = (
 				F3ECE1111DBBDAB8002F7748 /* Classes */,
 				F3ECE1091DBBDAB3002F7748 /* PInterestSDK.h */,
 				F3ECE10A1DBBDAB3002F7748 /* Info.plist */,
 			);
+			name = PinterestSDK;
 			path = PInterestSDK;
 			sourceTree = "<group>";
 		};
@@ -165,9 +166,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F3ECE1051DBBDAB3002F7748 /* PInterestSDK */ = {
+		F3ECE1051DBBDAB3002F7748 /* PinterestSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3ECE10E1DBBDAB3002F7748 /* Build configuration list for PBXNativeTarget "PInterestSDK" */;
+			buildConfigurationList = F3ECE10E1DBBDAB3002F7748 /* Build configuration list for PBXNativeTarget "PinterestSDK" */;
 			buildPhases = (
 				F3ECE1011DBBDAB3002F7748 /* Sources */,
 				F3ECE1021DBBDAB3002F7748 /* Frameworks */,
@@ -178,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = PInterestSDK;
+			name = PinterestSDK;
 			productName = PInterestSDK;
-			productReference = F3ECE1061DBBDAB3002F7748 /* PInterestSDK.framework */;
+			productReference = F3ECE1061DBBDAB3002F7748 /* PinterestSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3ECE1001DBBDAB3002F7748 /* Build configuration list for PBXProject "PInterestSDK" */;
+			buildConfigurationList = F3ECE1001DBBDAB3002F7748 /* Build configuration list for PBXProject "PinterestSDK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -210,7 +211,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3ECE1051DBBDAB3002F7748 /* PInterestSDK */,
+				F3ECE1051DBBDAB3002F7748 /* PinterestSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +358,7 @@
 				INFOPLIST_FILE = PInterestSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.snupps.PInterestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snupps.PinterestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -379,7 +380,7 @@
 				INFOPLIST_FILE = PInterestSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.snupps.PInterestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snupps.PinterestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -388,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3ECE1001DBBDAB3002F7748 /* Build configuration list for PBXProject "PInterestSDK" */ = {
+		F3ECE1001DBBDAB3002F7748 /* Build configuration list for PBXProject "PinterestSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3ECE10C1DBBDAB3002F7748 /* Debug */,
@@ -397,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3ECE10E1DBBDAB3002F7748 /* Build configuration list for PBXNativeTarget "PInterestSDK" */ = {
+		F3ECE10E1DBBDAB3002F7748 /* Build configuration list for PBXNativeTarget "PinterestSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3ECE10F1DBBDAB3002F7748 /* Debug */,

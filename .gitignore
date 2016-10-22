@@ -34,3 +34,6 @@ Pods/
 # example files
 Example/Podfile.lock
 Example/Pods/
+
+# Carthage
+Carthage/
